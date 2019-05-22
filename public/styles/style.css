@@ -4,6 +4,41 @@ html{
 
 };
 
+#loginBox{
+    margin-bottom: 1%;
+  }
+
+  .w3-panel {
+    margin: 25px;
+    text-align: left;
+    background-color: lightgray;
+    padding: 25px 25px 25px 25px;
+  }
+
+  .w3-button {
+    margin: 15px;
+  }
+
+  body,h1,h2,div,form,label,h3,a,h4,th {
+    font-family: 'Dosis', sans-serif;
+    color: #005580;
+  }
+  input {
+    font-family: 'Dosis', sans-serif; 
+  }
+  ::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+   }
+   
+   ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+   }
+
 #home{
     font-size: 1000px !important;
 }

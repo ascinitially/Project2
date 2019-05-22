@@ -10,6 +10,26 @@
   margin: 10px
 }
 
+#loginBox{
+  margin-bottom: 1%;
+}
+
+.w3-panel {
+  margin: 25px;
+  text-align: left;
+  background-color: lightgray;
+  padding: 25px 25px 25px 25px;
+}
+.w3-button {
+  margin: 15px;
+}
+body,h1,h2,div,form,label,h3,a,h4,th {
+  font-family: 'Dosis', sans-serif;
+  color: #005580;
+}
+input {
+  font-family: 'Dosis', sans-serif; 
+}
 .offerBox {
   border: 1px solid black;
   width:90%;
@@ -63,7 +83,7 @@
 input {
   border: 0;
   outline: 0;
-  background: transparent;
+  background: white;
   border-bottom: 1px solid lightgray;
 }
 

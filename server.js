@@ -1,10 +1,15 @@
 require("dotenv").config();
 var express = require("express");
 var exphbs = require("express-handlebars");
-
+var bodyParser = require("body-parser");
+var cookieParser = require('cookie-parser');
+var session = require('express-session');
+var methodOverride = require("method-override");
+var passport = require('passport');
 var db = require("./models");
 
 var app = express();
+SALT_WORK_FACTOR = 12;
 var PORT = process.env.PORT || 3000;
 
 // Middleware
