@@ -1,0 +1,28 @@
+
+<div class="w3-container">
+  <div class="w3-row">
+    <div class="w3-display-topmiddle">
+      <h3>Yum Yum Log!</h3>
+      <h4>Choose a track.  Set a Goal.  Achieve Results</h4>
+    </div> <!-- end top middle class -->
+  </div> <!-- end first row of container -->
+  <div class="w3-row main-content">
+    <div class="w3-container w3-teal">
+      <h2>User Login</h2>
+    </div>
+    <form action="/authenticate" method="post" class="w3-container">
+
+      <label class="w3-text-teal"><b>username</b></label>
+      <input class="w3-input w3-border w3-light-grey" id="username" name="username" placeholder="Username" type="text">
+
+      <label class="w3-text-teal"><b>password</b></label>
+      <input class="w3-input w3-border w3-light-grey" id="password" name="password" placeholder="Password" type="password">
+
+      <button type="submit" class="w3-btn w3-blue-grey">Login</button>
+      <a href="/signup">Not Registered?</a>
+
+    </form>
+    {{!-- register --}}
+  </div>
+</div> <!-- end container -->
+
