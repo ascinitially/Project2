@@ -14,12 +14,14 @@
   margin-bottom: 1%;
 }
 
-.w3-panel {
+
+.w3-panel{
   margin: 25px;
   text-align: left;
   background-color: lightgray;
   padding: 25px 25px 25px 25px;
 }
+
 .w3-button {
   margin: 15px;
 }
@@ -27,9 +29,7 @@ body,h1,h2,div,form,label,h3,a,h4,th {
   font-family: 'Dosis', sans-serif;
   color: #005580;
 }
-input {
-  font-family: 'Dosis', sans-serif; 
-}
+
 .offerBox {
   border: 1px solid black;
   width:90%;
@@ -85,6 +85,8 @@ input {
   outline: 0;
   background: white;
   border-bottom: 1px solid lightgray;
+  font-family: 'Dosis', sans-serif;
+  color: #005580;
 }
 
 input:focus {
@@ -123,10 +125,7 @@ input:valid {
 * {
   box-sizing: border-box;
 }
-body,h1,h2,div,form,input,label,h3,a,h4,th {
-  font-family: 'Dosis', sans-serif;
-  color: #005580;
-}
+
 body, html {
   min-height: 100%;
   transition: background-color .5s;
@@ -148,12 +147,6 @@ body:before {
   opacity: 0.5;
 }
 
-.w3-panel {
-  margin: 25px;
-  text-align: left;
-  background-color: lightgray;
-  padding: 25px 25px 25px 25px;
-}
 
 .w3-bar-block{
   text-align: left;
@@ -192,13 +185,6 @@ div#bloodhound {
 }
 
 
-#loginBox{
-  margin-bottom: 1%;
-}
-
-.w3-button {
-  margin: 15px;
-}
 
 #curr_list{
   position: absolute;
