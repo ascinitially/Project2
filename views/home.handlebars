@@ -156,7 +156,8 @@
                                         hiddenPerOffer.addClass("hidden" + offerCounter.toString());
                                         hiddenPerOffer.addClass("toggle" + offerCounter.toString());
                                         hiddenPerOffer.html(`
-                                            <div> {{this.belongsTo}} </div>
+                                            <div>  Username:  {{this.User.username}} </div>
+                                            <div>  Email:  {{this.User.email}} </div>
                                             <button class = "deleteDeal" data-dealid = {{this.id}}>Delete</button>
                                             <button class = "acceptDeal" data-dealid = {{this.id}}>Accept</button>
                                             <button class = "completeDeal" data-dealid = {{this.id}}>Complete</button>`);
@@ -243,7 +244,7 @@
             </div>
             <div class="and">AND</div>
             <div id="makeWant">
-                <label>Asking</label>
+                <label>Asking: </label>
                 <input class="offerInput" style="width:30%;" type="text" name="wanting" id ='asked' required>
             
             

@@ -1,0 +1,57 @@
+{{!-- <body>
+  <div class="registrationbg"> --}}
+<div class="bgdesign" style = "height:100vh ">
+  
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large" onclick="sideBar_Close()">Close &times;</button>
+    <a href="/logout" class="w3-bar-item w3-button">Back to Login Page</a>
+     <div class ="logopic2"></div>
+  </div>
+  <div zclass="w3-main" id="sidebar">
+    <div class="w3-jumbo">
+      {{!-- <div class="registrationbg"> --}}
+      <div id="hamb_cont">
+        <button id="curr_list" class="w3-button w3-bisque w3-large" onclick="sideBar_Open()">&#9776<img id="logo"
+            src="/public/images/veggieswap.png" alt=""></button>
+      </div>
+      <div class="w3-container">
+       
+        <h2>Register Today!</h2>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+   <div id="register" class="w3-col s6 w3-mobile" style="background-color: red">
+      
+      <form style="position: fixed;left: 500px; top: 100px" class="w3-panel w3-card-4 w3-round-xxlarge"
+        action="/register" method="post">
+        <h2 style="text-align: center">New User?</h2>
+        
+        <input class="w3-input " type="text" id="reg_username" name="username" pattern="[a-zA-Z0-9\s]{0,30}"
+          placeholder="Username" title="Alphanumeric Characters Only" required>
+     
+        <br><input class="w3-input" type="password" id="reg_password" name="password" placeholder="Password"
+          title="Alphabet Characters Only" required>
+        
+        <br><input class="w3-input" type="text" id="reg_email" name="email" placeholder="email" required>
+        
+        <br><input class="w3-input" type="text" id="reg_imageURL" name="imageURL" placeholder="imageURL" required>
+        
+        <br><input class="w3-input" type="text" id="reg_aboutMe" name="aboutMe" placeholder="aboutMe" required>
+        <br><button type="submit" class="w3-button w3-red regBtn">Register</button>
+      </form>
+    </div>
+   
+ </div>
+  </div> <!-- end zclass sidebar -->
+</div>
+</div>
+{{!-- </div>
+</body> --}}
+<footer style="text-align:center; color:rgb(38, 38, 109); text">
+  Copyright VeggieSwap 2019
+</footer>
