@@ -187,8 +187,8 @@
                     <table id="closedTransactions">
                         <th id="closedOffered">Offered</th>
                         <th id="closedAsked">Asked</th>
-                        <th id="offerer">Offerer</th>
-                        <th id="acceptor">Acceptor</th>
+                        <th id="offerer">Deal Initiator</th>
+                        
                         <th id="closedTime">Closing Time</th>
                     </table>
                     {{#each closedDeals}}
@@ -197,18 +197,18 @@
                             var td1= $("<td>");
                             var td2= $("<td>");
                             var td3= $("<td>");
-                            var td4= $("<td>");
+                            
                             var td5= $("<td>");
                             td1.html("{{this.offered}}");
                             td2.html("{{this.asked}}");
-                            td3.html("(offerer)");
-                            td4.html("(acceptor)");
+                            td3.html("{{this.User.username}}");
+                            
                             td5.html("{{this.updatedAt}}");
 
                             newRow.append(td1);
                             newRow.append(td2);
                             newRow.append(td3);
-                            newRow.append(td4);
+                            
                             newRow.append(td5);
 
                             $("#closedTransactions").append(newRow);
