@@ -2,18 +2,7 @@
 
 ![veggieswaplogo](/public/images/veggieswap.png)
 
-Veggie Swap is an app that allows gardeners and veggie lovers to trade fresh produce with others in their area, no matter the variety. Users can see current transactions, what is available to trade, as well as select the quantity. Once the transaction is complete, they can arrange how they would like to communicate with other gardeners to proceed with the trade. 
+Veggie Swap is an app that allows gardeners and veggie lovers to trade fresh produce with others in their area, no matter the variety. Users can post what they have available to swap and specify what they are looking to swap for. The available transaction is then displayed on the page for other users to accept. Once the trade is made, the transaction is logged in the past transactions section of the website. 
 
-Users must create a username and password, then log in if they don't have an existing account with Veggie Swap. Once in, they can view offers and complete their transactions. 
-
-To Use:
-
-Run npm install
-
-Create database
-
-select node server.js
-
-localhost:3000
-
+Check out out here: https://secure-temple-76823.herokuapp.com/
 
